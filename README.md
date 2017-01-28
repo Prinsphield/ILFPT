@@ -34,8 +34,6 @@ ILFPT is in intergated framework designed for pedestrian tracking, especially in
 
 ### Training Your Pedestrian Detection Network
 
-0.	Run `fetch_data/fetch_model_ZF.m` to download an ImageNet-pre-trained ZF net.
-0.	Run `fetch_data/fetch_model_VGG16.m` to download an ImageNet-pre-trained VGG-16 net.
 0.	Download SVD-B training data from [Google Drive](https://drive.google.com/open?id=0B_ZFgt4zqONCV1lIN3ZzRXFTMlE) and extract into `dataset/` directory
 0.  Modify related files in `model/` dir to config detection network
 0.  Run scripts in `experiments/` accordingly to train a detection network.
