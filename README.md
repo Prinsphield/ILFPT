@@ -38,7 +38,7 @@ ILFPT is in integrated framework designed for pedestrian tracking, especially in
 
 Note that the GPU cost for training a detection network is much higher than that for testing. Before training your own detection network, please ensure that your GPU memory memory meets the following requirement:
 
-    - 3GB GPU memory for ZF net
-    - 9GB GPU memory for VGG-16 net
+- 3GB GPU memory for ZF net
+- 9GB GPU memory for VGG-16 net
 
 
