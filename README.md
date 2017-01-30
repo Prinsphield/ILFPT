@@ -2,7 +2,7 @@
 
 ### Introduction
 
-ILFPT is in intergated framework designed for pedestrian tracking, especially in the surveillance videos.
+ILFPT is in integrated framework designed for pedestrian tracking, especially in the surveillance videos.
 
 
 ### Requirements 
@@ -36,7 +36,8 @@ ILFPT is in intergated framework designed for pedestrian tracking, especially in
 0.  Modify related files in `model/` dir to config detection network
 0.  Run scripts in `experiments/` accordingly to train a detection network.
 
-Note that the GPU cost for training a dection network is much higher than that for testing. Before training your own dection network, please ensure that your GPU memory memory meets the following requirement:
+Note that the GPU cost for training a detection network is much higher than that for testing. Before training your own detection network, please ensure that your GPU memory memory meets the following requirement:
+
     - 3GB GPU memory for ZF net
     - 9GB GPU memory for VGG-16 net
 
