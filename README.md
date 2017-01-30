@@ -9,9 +9,7 @@ ILFPT is in intergated framework designed for pedestrian tracking, especially in
 
 0. `Caffe` (see `external/caffe/`)
 0. MATLAB
-0. GPU 
-    - 3GB GPU memory for ZF net 
-    - 9GB GPU memory for VGG-16 net
+0. GPU: GTX 980/1080, Tesla K20/K40/K80  
 
 
 ### Preparation for Testing:
@@ -34,9 +32,12 @@ ILFPT is in intergated framework designed for pedestrian tracking, especially in
 
 ### Training Your Pedestrian Detection Network
 
-0.	Download SVD-B training data from [Google Drive](https://drive.google.com/open?id=0B_ZFgt4zqONCV1lIN3ZzRXFTMlE) and extract into `dataset/` directory
+0.  Download SVD-B training data from [Google Drive](https://drive.google.com/open?id=0B_ZFgt4zqONCV1lIN3ZzRXFTMlE) and extract into `dataset/` directory
 0.  Modify related files in `model/` dir to config detection network
 0.  Run scripts in `experiments/` accordingly to train a detection network.
 
+Note that the GPU cost for training a dection network is much higher than that for testing. Before training your own dection network, please ensure that your GPU memory memory meets the following requirement:
+    - 3GB GPU memory for ZF net
+    - 9GB GPU memory for VGG-16 net
 
 
