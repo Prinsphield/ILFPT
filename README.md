@@ -12,9 +12,9 @@ ILFPT is in integrated framework designed for pedestrian tracking, especially in
 0. GPU: GTX 980/1080, Tesla K20/K40/K80  
 
 
-### Preparation for Testing:
+# Preparation for Testing:
 
-0.  `git clone https://github.com/Prinsphield/ILFPT.git`
+0.  `git clone --recursive https://github.com/Prinsphield/ILFPT.git`
 0.  Build Caffe in the `external/caffe`
 0.  Download the test videos from either [Google Drive](https://drive.google.com/open?id=0B_ZFgt4zqONCS0lDbmg4NzkxZzQ) or [BaiduPan](https://pan.baidu.com/s/1cvgkJ8) and extract them into the 'test/' directory
 0.  Download the detection network model from either [Google Drive](https://drive.google.com/open?id=0B_ZFgt4zqONCaGxfSVJYNXN5X3c) or [BaiduPan](http://pan.baidu.com/s/1mhWzjOs) and extract into `model/` directory
