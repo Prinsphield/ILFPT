@@ -1,3 +1,6 @@
 [submodule "external/caffe"]
 	path = external/caffe
-	url = git@github.com:ShaoqingRen/caffe.git
+	url = https://github.com/ShaoqingRen/caffe.git
+[submodule "caffe"]
+	path = caffe
+	url = https://github.com/ShaoqingRen/caffe.git
