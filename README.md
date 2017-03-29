@@ -12,7 +12,7 @@ ILFPT is in integrated framework designed for pedestrian tracking, especially in
 1. GPU: GTX 980/1080, Tesla K20/K40/K80  
 
 
-# Preparation for Testing:
+### Preparation for Testing:
 
 1.  `git clone --recursive https://github.com/Prinsphield/ILFPT.git`
 1.  Build Caffe in the `external/caffe`
