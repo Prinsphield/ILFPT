@@ -7,9 +7,9 @@ ILFPT is in integrated framework designed for pedestrian tracking, especially in
 
 ### Requirements 
 
-0. `Caffe` (see `external/caffe/`)
-0. MATLAB
-0. GPU: GTX 980/1080, Tesla K20/K40/K80  
+1. `Caffe` (see `external/caffe/`)
+1. MATLAB
+1. GPU: GTX 980/1080, Tesla K20/K40/K80  
 
 
 # Preparation for Testing:
