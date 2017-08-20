@@ -6,7 +6,8 @@ ILFPT is in integrated framework designed for pedestrian tracking, especially in
 
 Here is a video demo.
 
-[![ILFPT](https://youtu.be/HQIi0Z9b4Pw/0.jpg)](https://youtu.be/HQIi0Z9b4Pw?t=0 "Intergrated Framework for Pedestrian Tracking")
+[![ILFPT](http://img.youtube.com/vi/HQIi0Z9b4Pw/0.jpg)](https://youtu.be/HQIi0Z9b4Pw?t=0 "Intergrated Framework for Pedestrian Tracking")
+
 
 ### Requirements 
 
