@@ -6,13 +6,7 @@ ILFPT is in integrated framework designed for pedestrian tracking, especially in
 
 Here is a video demo.
 
-<script src="http://vjs.zencdn.net/4.0/video.js"></script>
-
-<video id="pelican-installation" class="video-js vjs-default-skin" controls
-preload="auto" width="560" height="315" poster="http://img.youtube.com/vi/HQIi0Z9b4Pw/0.jpg"
-data-setup="{}">
-<source src="https://youtu.be/HQIi0Z9b4Pw" type='video/mp4'>
-</video>
+[![ILFPT](http://img.youtube.com/vi/HQIi0Z9b4Pw/0.jpg)](https://youtu.be/HQIi0Z9b4Pw?t=0 "Intergrated Framework for Pedestrian Tracking")
 
 
 ### Requirements 
