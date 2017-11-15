@@ -1,7 +1,10 @@
 # Integrated Learning Framework for Pedestrian Tracking
 
+By Taihong Xiao and Jinwen Ma
+
 ### Introduction
 
+This repo is an Matlab implementation of our [paper](https://link.springer.com/chapter/10.1007%2F978-3-319-63315-2_9).
 ILFPT is in integrated framework designed for pedestrian tracking, especially in the surveillance videos.
 
 Here is a video demo.
@@ -9,11 +12,11 @@ Here is a video demo.
 [![ILFPT](http://img.youtube.com/vi/HQIi0Z9b4Pw/0.jpg)](https://youtu.be/HQIi0Z9b4Pw?t=0 "Intergrated Framework for Pedestrian Tracking")
 
 
-### Requirements 
+### Requirements
 
 1. `Caffe` (see `external/caffe/`)
 1. MATLAB
-1. GPU: GTX 980/1080, Tesla K20/K40/K80  
+1. GPU: GTX 980/1080, Tesla K20/K40/K80
 
 
 ### Preparation for Testing:
@@ -31,12 +34,12 @@ Here is a video demo.
 1.  Start Matlab from the root directory
 1.  Run `faster_rcnn_build.m`
 1.  Run `startup.m`
-1.  Run `demo.m` 
+1.  Run `demo.m`
 
 
 ### Training Your Pedestrian Detection Network
 
-1.  Download SVD-B training data from [Google Drive](https://drive.google.com/open?id=0B_ZFgt4zqONCV1lIN3ZzRXFTMlE). Extract them into `dataset/` directory and rename to `VOCdevkit2007/`  
+1.  Download SVD-B training data from [Google Drive](https://drive.google.com/open?id=0B_ZFgt4zqONCV1lIN3ZzRXFTMlE). Extract them into `dataset/` directory and rename to `VOCdevkit2007/`
 1.  Modify related files in `models/` dir to config detection network
 1.  Run scripts in `experiments/` accordingly to train a detection network.
 
