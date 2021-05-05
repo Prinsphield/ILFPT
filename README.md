@@ -39,7 +39,7 @@ Here is a video demo.
 
 ### Training Your Pedestrian Detection Network
 
-1.  Download SVD-B training data from [Google Drive](https://drive.google.com/open?id=0B_ZFgt4zqONCV1lIN3ZzRXFTMlE). Extract them into `dataset/` directory and rename to `VOCdevkit2007/`
+1.  Download SVD-B training data from [OneDrive](https://merced-my.sharepoint.com/:u:/g/personal/txiao3_ucmerced_edu/EVChbyc_L8VAlrgx2WGOXPYBY1eRYBunzxMEK5nq5actrQ?e=xg7mqO). Extract them into `dataset/` directory and rename to `VOCdevkit2007/`
 1.  Modify related files in `models/` dir to config detection network
 1.  Run scripts in `experiments/` accordingly to train a detection network.
 
